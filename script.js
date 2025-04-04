@@ -15,6 +15,7 @@ clear.addEventListener("click", () => {
     display.innerHTML = ""
     calculated.textContent = ""
 })
+
 equal.addEventListener("click", () => {
     const input = display.innerHTML;
     try{
